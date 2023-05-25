@@ -1,11 +1,19 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import * as Form from '@radix-ui/react-form';
 import './form.css';
 
 const FormDemo = () => {
 	const [showMessage, setShowMessage] = useState(false);
 	if (showMessage) {
-		return <div>Successfully submitted!</div>;
+		return (
+			<div
+				style={{
+					color: 'white',
+				}}
+			>
+				Successfully submitted!
+			</div>
+		);
 	}
 	return (
 		<Form.Root
@@ -21,6 +29,7 @@ const FormDemo = () => {
 						display: 'flex',
 						alignItems: 'baseline',
 						justifyContent: 'space-between',
+						color: 'white',
 					}}
 				>
 					<Form.Label className="FormLabel">Email</Form.Label>
