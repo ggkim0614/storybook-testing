@@ -9,6 +9,6 @@ Form component was obtained via Radix UI, an unstyled component library.
 
 #### Test code snippet of the last Story of Form component:
 
-<img width="500" alt="Screenshot 2023-05-26 at 12 50 08 AM" src="https://github.com/ggkim0614/storybook-testing/assets/37966668/d641376b-c802-431d-b9ed-f6e033de9b34">
+<img width="460" alt="Screenshot 2023-05-26 at 12 50 08 AM" src="https://github.com/ggkim0614/storybook-testing/assets/37966668/d641376b-c802-431d-b9ed-f6e033de9b34">
 
 
